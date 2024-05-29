@@ -81,3 +81,49 @@ th {
 button.action-button {
     background-color: #dc3545;
 }
+
+
+@media screen and (max-width: 480px) {
+    .container {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    .total {
+        font-size: 1.2em;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    label {
+        margin-bottom: 5px;
+    }
+
+    .form-actions {
+        flex-direction: column;
+    }
+
+    button {
+        margin: 10px 0;
+    }
+
+    .receipt {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .items, .summary {
+        margin-right: 0;
+        text-align: left;
+    }
+}
